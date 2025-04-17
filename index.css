@@ -49,3 +49,6 @@ p{
     margin: 5px auto;
     display: flex;
 }
+img{
+    border-radius: 50px;
+}

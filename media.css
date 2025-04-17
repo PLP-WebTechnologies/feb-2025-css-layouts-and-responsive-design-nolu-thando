@@ -1,38 +1,8 @@
-/* Mobile */
-@media (max-width: 768px) {
-
-}
-
-    .header {
-        padding: 15px 30px;
+  /* Tablet & Small Laptop */
+  @media (max-width: 1024px) {
+    header {
+        padding: 20px 50px;
     }
     
-    .logo a {
-        font-size: 28px;
+  
     }
-    
-    nav {
-        position: fixed;
-        top: 70px;
-        left: -100%;
-        width: 100%;
-        padding: 20px;
-    }
-    
-    nav.active {
-        left: 0;
-    }
-    
-    nav ul {
-        flex-direction: column;
-    }
-    
-    nav ul li {
-        margin: 10px 0;
-    }
-    
-    .hamburger {
-        display: block;
-    }
-    
-   
